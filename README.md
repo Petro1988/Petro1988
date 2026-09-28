@@ -4,9 +4,9 @@
 
 Ich verbinde **IT-Systemadministration, Microsoft-Technologien, Softwareentwicklung und kaufmännisches Prozessverständnis**, um praktische Lösungen für Geschäftsprozesse und interne IT-Anwendungen zu entwickeln.
 
-Mein Schwerpunkt liegt auf der Entwicklung und Betreuung von **Business Applications mit C#/.NET**, der Administration von **Microsoft-Systemen** sowie der Digitalisierung und Automatisierung von Geschäftsprozessen.
+Mein Schwerpunkt liegt auf **C#/.NET, Business Applications, Microsoft-Infrastruktur, Datenbanken und Prozessautomatisierung**.
 
-Ich arbeite gerne an Lösungen, bei denen **Softwareentwicklung, Datenbanken, IT-Infrastruktur und fachliche Anforderungen** zusammenkommen.
+Besonders interessant finde ich Projekte, bei denen eine technische Lösung ein konkretes Problem aus dem IT-Betrieb oder einem Geschäftsprozess löst.
 
 ---
 
@@ -19,11 +19,13 @@ Ich arbeite gerne an Lösungen, bei denen **Softwareentwicklung, Datenbanken, IT
 * ASP.NET Core
 * ASP.NET Core MVC
 * WPF
+* WinForms
 * Entity Framework Core
 * LINQ
 * REST APIs
 * Worker Services
 * Background Services
+* HTML / CSS
 
 ### Datenbanken
 
@@ -46,15 +48,6 @@ Ich arbeite gerne an Lösungen, bei denen **Softwareentwicklung, Datenbanken, IT
 * Microsoft Intune
 * PowerShell
 
-### Business Applications
-
-* Entwicklung und Weiterentwicklung interner Anwendungen
-* Digitalisierung von Geschäftsprozessen
-* Prozessanalyse und Optimierung
-* Benutzer- und Rollenverwaltung
-* Datenverarbeitung und Reporting
-* Automatisierung wiederkehrender Aufgaben
-
 ---
 
 # 🚀 Featured Projects
@@ -65,7 +58,7 @@ Ich arbeite gerne an Lösungen, bei denen **Softwareentwicklung, Datenbanken, IT
 
 Eine Windows-Anwendung zur schnellen Suche und Anzeige von Informationen aus Microsoft Active Directory.
 
-Das Tool unterstützt unter anderem die Suche nach Benutzern anhand von Name, Login, Telefonnummer und weiteren Active-Directory-Attributen.
+Das Tool unterstützt die Suche nach Benutzern anhand verschiedener Kriterien wie Name, Login, Telefonnummer, Organisationseinheit und Gruppen.
 
 **Schwerpunkte:**
 
@@ -76,7 +69,87 @@ Das Tool unterstützt unter anderem die Suche nach Benutzern anhand von Name, Lo
 * C# / .NET
 * Unterstützung bei IT-Support- und Administrationsaufgaben
 
-➡️ **Repository:** [ADUserSearchTool](https://github.com/Petro1988/ADUserSearchTool)
+➡️ [ADUserSearchTool](https://github.com/Petro1988/ADUserSearchTool)
+
+---
+
+## 🖥️ ADComputerSearchTool
+
+**C# | .NET | Active Directory**
+
+Ein ergänzendes Tool zur Suche und Anzeige von Informationen zu **Computerkonten in Active Directory**.
+
+Das Projekt erweitert den Ansatz des Benutzersuchtools auf Computerobjekte und unterstützt dadurch die Identifikation und Zuordnung von IT-Geräten innerhalb einer Active-Directory-Umgebung.
+
+Der Schwerpunkt liegt auf der schnellen Suche nach Computerobjekten und der Darstellung relevanter Informationen für Administrations- und Inventarisierungsaufgaben.
+
+**Schwerpunkte:**
+
+* Active-Directory-Computerobjekte
+* LDAP
+* Computerinformationen
+* C# / .NET
+* IT-Inventarisierung
+* Unterstützung der Systemadministration
+
+➡️ [ADComputerSearchTool](https://github.com/Petro1988/ADComputerSearchTool)
+
+---
+
+## 🖥️ LOGINventoryHardware
+
+**C# | ASP.NET Core | SQL | IT Asset Management**
+
+Ein eigenes Erweiterungsmodul für den **LOGINventory WebViewer**.
+
+Das Modul erweitert die vorhandene Inventarisierung um zusätzliche Informationen zu **Peripheriegeräten und angeschlossenen Hardwarekomponenten eines Computers**.
+
+Dazu gehören beispielsweise:
+
+* Monitore
+* Dockingstations
+* Drucker
+* weitere angeschlossene bzw. zugeordnete Geräte
+
+Ziel ist eine detailliertere und übersichtlichere Darstellung der vorhandenen IT-Hardware und damit eine effizientere Unterstützung bei **Inventarisierung, IT-Support und Geräteverwaltung**.
+
+**Schwerpunkte:**
+
+* Erweiterung einer bestehenden Business-Anwendung
+* IT Asset Management
+* Hardware-Inventarisierung
+* ASP.NET Core
+* C#
+* SQL
+* Webanwendung
+* Integration vorhandener Daten
+
+➡️ [LOGINventoryHardware](https://github.com/Petro1988/LOGINventoryHardware)
+
+---
+
+## 📁 DownloadPortal
+
+**ASP.NET Core | C# | IIS | WebDAV**
+
+Eine webbasierte Erweiterung meines WebDAV-basierten Datei- und Dokumentenzugriffs.
+
+Das Projekt stellt eine zusätzliche **ASP.NET-Core-Weboberfläche** bereit, über die Dateien wie beispielsweise **EXE-, MSI- und weitere Dateitypen** kontrolliert bereitgestellt und heruntergeladen werden können.
+
+Der Ansatz verbindet die serverseitige Dateiverwaltung mit einer benutzerfreundlichen Weboberfläche und ermöglicht dadurch einen einfacheren Zugriff auf bereitgestellte Dateien.
+
+**Schwerpunkte:**
+
+* ASP.NET Core
+* C#
+* IIS
+* WebDAV
+* Dateiverarbeitung
+* Datei-Download
+* Weboberfläche
+* Serverintegration
+
+➡️ [DownloadPortal](https://github.com/Petro1988/DownloadPortal)
 
 ---
 
@@ -86,75 +159,64 @@ Das Tool unterstützt unter anderem die Suche nach Benutzern anhand von Name, Lo
 
 Eine webbasierte Business-Anwendung zur Verwaltung von Artikeln, Lagerbeständen und Lagerbewegungen.
 
-Die Anwendung enthält unter anderem Artikelverwaltung, Benutzer- und Rollenverwaltung, Such- und Filterfunktionen, Lagerbewegungen, Dashboard-Auswertungen und Reporting.
+Die Anwendung umfasst unter anderem:
+
+* Artikelverwaltung
+* Lagerbewegungen
+* Benutzer- und Rollenverwaltung
+* Suche und Filter
+* Pagination
+* Dashboard
+* Auswertungen
+* PDF-Export
 
 **Schwerpunkte:**
 
 * ASP.NET Core MVC
 * Entity Framework Core
 * SQL Server
-* CRUD-Funktionalität
-* Benutzer- und Rollenverwaltung
-* Such-, Filter- und Sortierfunktionen
-* Dashboard und Reporting
+* CRUD
 * Business Logic
+* Benutzerverwaltung
+* Reporting
+* Datenvisualisierung
 
-➡️ **Repository:** [WarehouseApp](https://github.com/Petro1988/WarehouseApp)
+➡️ [WarehouseApp](https://github.com/Petro1988/WarehouseApp)
 
 ---
 
-## 🖥️ LOGINventoryHardware
+## 🔗 ScannerUrlOpener
 
-**ASP.NET Core | C# | SQL Server | IT Asset Management**
+**C# | WinForms | URL Handling | Automation**
 
-Eine Business-Anwendung zur Verwaltung und Suche von IT-Hardware und Inventardaten.
+Ein kleines Windows-Tool zur Unterstützung von Scan- und IT-Service-Prozessen.
 
-Der Schwerpunkt liegt auf der strukturierten Verwaltung von Hardwareinformationen und der schnellen Suche innerhalb einer webbasierten Anwendung.
+Nach dem Scannen eines entsprechenden Codes wird die darin enthaltene bzw. zugeordnete URL automatisch erkannt und im Standardbrowser geöffnet.
+
+Das Projekt entstand aus einem praktischen Anwendungsfall und zeigt die Umsetzung einer kleinen, gezielten Automatisierung mit **C# und WinForms**.
 
 **Schwerpunkte:**
 
-* IT Asset Management
-* ASP.NET Core
 * C#
-* SQL Server
-* Datenbankzugriff
-* Such- und Filterfunktionen
-* Business Applications
-* technische Dokumentation
+* WinForms
+* URL-Verarbeitung
+* Browser-Integration
+* Automatisierung
+* Scanner-Workflow
 
-➡️ **Repository:** [LOGINventoryHardware](https://github.com/Petro1988/LOGINventoryHardware)
+➡️ [ScannerUrlOpener](https://github.com/Petro1988/ScannerUrlOpener)
 
 ---
 
-## 📁 DownloadPortal
+# ⚙️ Automation & .NET
 
-**ASP.NET Core | IIS | File Management**
-
-Eine webbasierte Anwendung für die kontrollierte Bereitstellung und Verwaltung von Dateien.
-
-Das Projekt verbindet eine ASP.NET-Core-Anwendung mit serverseitiger Dateiverarbeitung und typischen Anforderungen einer internen Business-Anwendung.
-
-**Schwerpunkte:**
-
-* ASP.NET Core
-* C#
-* IIS
-* Dateiverarbeitung
-* Zugriffskontrolle
-* Webanwendung
-* Serverintegration
-
-➡️ **Repository:** [DownloadPortal](https://github.com/Petro1988/DownloadPortal)
-
----
-
-## ⚙️ PdfFileMoverService
+## PdfFileMoverService
 
 **C# | .NET Worker Service | BackgroundService | FileSystemWatcher**
 
-Ein automatisierter Windows-Dienst zur Verarbeitung und Weiterleitung von PDF-Dateien.
+Ein automatisierter Hintergrunddienst zur Verarbeitung von PDF-Dateien.
 
-Der Dienst überwacht ein Verzeichnis, erkennt neue Dateien und verarbeitet diese automatisiert nach definierten Regeln.
+Der Dienst überwacht definierte Verzeichnisse, erkennt neue Dateien und verarbeitet diese nach festgelegten Regeln.
 
 **Schwerpunkte:**
 
@@ -166,47 +228,47 @@ Der Dienst überwacht ein Verzeichnis, erkennt neue Dateien und verarbeitet dies
 * asynchrone Verarbeitung
 * Windows Service
 
-➡️ **Repository:** [PdfFileMoverService](https://github.com/Petro1988/PdfFileMoverService)
+---
+
+# 📚 Weitere Projekte
+
+Neben den oben genannten praktischen Projekten befinden sich weitere kleinere Entwicklungs- und Lernprojekte in meinen Repositories.
+
+## 📖 BookShopApp
+
+**JavaScript | C# | HTML | CSS**
+
+Ein Webprojekt, das hauptsächlich zum **Erlernen und Vertiefen von JavaScript sowie der Zusammenarbeit mit C#** entwickelt wurde.
+
+Das Projekt hatte keinen konkreten produktiven Einsatz. Der Schwerpunkt lag auf dem praktischen Lernen und Ausprobieren verschiedener Webentwicklungstechniken.
+
+➡️ [BookShopApp](https://github.com/Petro1988/BookShopApp)
 
 ---
 
-# 💼 IT-System Engineering & Business Applications
+# 💼 Was mich technisch besonders interessiert
 
-Neben der Softwareentwicklung beschäftige ich mich mit der Administration und Weiterentwicklung von IT-Systemen und Business Applications.
+Ich interessiere mich besonders für die Verbindung von:
 
-Meine praktischen Schwerpunkte umfassen unter anderem:
+**Softwareentwicklung**
 
-* Active-Directory-Administration
-* Windows Server
-* Microsoft 365
-* Entra ID
-* Intune
-* IIS und WebDAV
-* SQL Server
-* Business Applications
-* DMS- und ERP-Systeme
-* Prozessanalyse und Prozessoptimierung
-* Automatisierung
-* technische Dokumentation
+*
 
-Dabei interessiert mich besonders die Verbindung zwischen **technischer Umsetzung und fachlichen Geschäftsanforderungen**.
+**IT-Infrastruktur**
 
----
+*
 
-# 🧩 Weitere Projekte
+**Datenbanken**
 
-Neben den Featured Projects befinden sich weitere kleinere Entwicklungs- und Automatisierungsprojekte in meinen Repositories.
+*
 
-Dazu gehören unter anderem Experimente und Anwendungen rund um:
+**Geschäftsprozessen**
 
-* C# / .NET
-* Datenbanken
-* Automatisierung
-* Windows
-* Business Processes
-* Microsoft-Technologien
+*
 
-Die Repositories dienen als praktische Dokumentation meiner technischen Entwicklung und meiner Arbeit mit unterschiedlichen Microsoft- und .NET-Technologien.
+**Automatisierung**
+
+Viele meiner Projekte entstehen aus konkreten praktischen Anforderungen. Dabei geht es nicht nur darum, eine Anwendung zu programmieren, sondern eine bestehende Aufgabe zu vereinfachen, Informationen besser verfügbar zu machen oder einen manuellen Prozess zu automatisieren.
 
 ---
 
@@ -214,36 +276,18 @@ Die Repositories dienen als praktische Dokumentation meiner technischen Entwickl
 
 Aktuell vertiefe ich insbesondere meine Kenntnisse in:
 
-**.NET / C#**
+* C# / .NET
+* ASP.NET Core
+* Software Architecture
+* SQL Server
+* Microsoft 365
+* Microsoft Entra ID
+* Microsoft Intune
+* PowerShell
+* IT-Automatisierung
+* Cloud- und Infrastrukturtechnologien
 
-**ASP.NET Core & Software Architecture**
-
-**SQL Server & Datenbankentwicklung**
-
-**Microsoft 365 / Entra ID / Intune**
-
-**PowerShell & IT-Automatisierung**
-
-**Cloud- und Infrastrukturtechnologien**
-
-Mein Ziel ist es, meine Erfahrung aus **IT-Infrastruktur, Business Applications und Softwareentwicklung** weiter miteinander zu verbinden und robuste, wartbare Lösungen für reale Geschäftsprozesse zu entwickeln.
-
----
-
-# 📚 Lernen & Weiterentwicklung
-
-Ich lege Wert auf kontinuierliche praktische Weiterentwicklung.
-
-Dabei verbinde ich:
-
-* praktische Projekte
-* berufliche IT-Erfahrung
-* technische Dokumentation
-* Softwareentwicklung
-* Microsoft-Technologien
-* Architektur und Best Practices
-
-Viele meiner Projekte entstehen aus konkreten praktischen Anforderungen oder eigenen Ideen zur Automatisierung und Verbesserung von Arbeitsabläufen.
+Mein Ziel ist es, meine Erfahrung aus **IT-Systemadministration, Business Applications und Softwareentwicklung** weiter miteinander zu verbinden und robuste, wartbare Lösungen für reale Geschäftsprozesse zu entwickeln.
 
 ---
 
@@ -253,17 +297,15 @@ Viele meiner Projekte entstehen aus konkreten praktischen Anforderungen oder eig
 
 IT-System Engineer / Business Applications Developer
 
-Schwerpunkte:
+**Schwerpunkte:**
 
-**C# · .NET · ASP.NET Core · SQL Server · Active Directory · Microsoft 365 · Entra ID · Intune · Windows Server**
+`C#` · `.NET` · `ASP.NET Core` · `SQL Server` · `Active Directory` · `Microsoft 365` · `Entra ID` · `Intune` · `Windows Server`
 
 Ich interessiere mich besonders für Projekte, bei denen **Softwareentwicklung, IT-Infrastruktur, Daten und Geschäftsprozesse** zusammenkommen.
 
 ---
 
-## 📫 Kontakt
-
-Weitere Informationen zu meinem beruflichen Profil und meiner Erfahrung befinden sich in meinem Lebenslauf.
+# 📫 Kontakt
 
 **GitHub:** [Petro1988](https://github.com/Petro1988)
 
@@ -271,4 +313,4 @@ Weitere Informationen zu meinem beruflichen Profil und meiner Erfahrung befinden
 
 ---
 
-⭐ **Vielen Dank für den Besuch meines GitHub-Profils.**
+⭐ Vielen Dank für den Besuch meines GitHub-Profils.
